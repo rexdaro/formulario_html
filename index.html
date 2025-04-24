@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body id="inicio">
+
+    <header class="header">        
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#modelos_disponibles">Modelos</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+
+        <div class="container">
+            <h1>Bienvenido a la tienda de motos</h1>
+            <p>En nuestra tienda encontrarás una amplia variedad de motos para todos los gustos y necesidades. Desde modelos deportivos hasta scooters urbanos, tenemos lo que buscas.</p>
+            <p>Explora nuestros modelos y encuentra la moto perfecta para ti.</p>
+        </div> 
+    
+        <div class="container" id="modelos_disponibles">
+            <h1>Modelos disponibles</h1>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cilindrada</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Honda GLH</td>
+                    <td>150cc</td>
+                    <td>$4.000.000</td>
+                </tr>
+                <tr>
+                    <td>Yamaha YBR</td>
+                    <td>160cc</td>
+                    <td>$4.500.000</td>
+                </tr>
+                <tr>
+                    <td>Honda CBX</td>
+                    <td>250cc</td>
+                    <td>$7.000.000</td>
+                </tr>
+                <tr>
+                    <td>Yamaha MT</td>
+                    <td>300cc</td>
+                    <td>$11.500.000</td>
+                </tr>
+            </table>
+        </div>
+        
+    
+    
+        <div class="container" id="formulario">
+            
+            <h1>Formulario</h1>
+            <form class="formulario" action="enviar_formulario.php" method="POST">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+
+    
+
+    <footer class="footer" id="footer">
+        <p>&copy; 2023 Tienda de Motos. Todos los derechos reservados.</p>
+        <p>Desarrollado por [Tu Nombre]</p>
+        <p>Contacto: <a href="#inicio">link de contacto</a>
+    </footer>
+
+</body>
+</html>
