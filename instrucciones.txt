@@ -1,0 +1,9 @@
+Día 3-4:
+
+Tablas (<table>, <tr>, <td>).
+
+Formularios (<form>, <input>, <button>, <label>).
+
+Atributos importantes (class, id, data-*).
+
+Ejercicio práctico: Formulario de contacto con campos para nombre, email y mensaje.
